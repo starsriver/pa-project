@@ -1,0 +1,38 @@
+.action-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title{
+    font-family: "PingFangSC-Medium";
+    font-size: 17px;
+    color: #000000;
+}
+
+.action-list{
+
+}
+
+.action-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-item-name{
+    font-family: "PingFangSC-Medium";
+    font-size: 14px;
+    color: #4A4A4A;
+}
+.action-item-action{
+    font-family: "PingFangSC-Regular";
+    font-size: 14px;
+    color: #000000;
+}
+.action-item-data{
+    font-family: "PingFangSC-Medium";
+    font-size: 12px;
+    color: rgba(74,74,74,0.64);
+    text-align: right;
+}

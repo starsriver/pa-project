@@ -1,0 +1,105 @@
+.give-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.give-title{
+    font-family: PingFangSC-Medium;
+    font-size: 17px;
+    color: #000000;
+}
+.give-title2{
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #FF7924;
+    background: #FFF8E2;
+}
+
+.give-list{
+
+}
+
+.give-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: rgba(105, 105, 105, 0.2);
+    padding: 5px 0;
+}
+
+.give-item-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.give-item-left-index-image{
+    width: 36px;
+    height: 46px;
+}
+.give-item-left-index-text{
+    width: 36px;
+    height: 46px;
+    font-family: "PingFangSC-Medium";
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    line-height: 46px;
+}
+.give-item-left-headicon{
+    width: 48px;
+    height: 48px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.give-item-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.give-item-left-text-name{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: rgba(0,0,0,0.85);
+}
+.give-item-left-text-name2{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: rgba(0,0,0,0.45);
+}
+
+.give-item-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.give-item-right-gaved{
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #000000;
+    text-align: right;
+    margin-right: 6px;
+}
+
+.give-item-right-box{
+    width: 63px;
+    background: #AABCC6;
+    border: 2px solid #90A1AB;
+    border-radius: 16px;
+    border-radius: 16px;
+    padding: 3px 9px;
+    text-align: center;
+}
+.give-item-right-box:active{
+    opacity: 0.4;
+}
+.give-item-right-text{
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: right;
+}

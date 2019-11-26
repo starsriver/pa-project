@@ -1,0 +1,118 @@
+.givepanel-wrapper{
+
+}
+.givepanel-root{
+    background: #F7F7F7;
+    border-radius: 7px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.givepanel-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 16px 0;
+}
+.givepanel-head-left{
+    font-family: PingFangSC-Medium;
+    font-size: 24pt;
+    color: #8C9DA7;
+}
+.givepanel-head-right{
+    font-family: PingFangSC-Medium;
+    font-size: 24pt;
+    color: #8C9DA7;
+}
+.givepanel-head-right:active{
+    opacity: 0.4;
+}
+.givepanel-title{
+    font-family: PingFangSC-Medium;
+    font-size: 18pt;
+    color: #8C9DA7;
+    margin-top: 36pt;
+}
+.givepanel-panel{
+    display: flex;
+    flex-direction: row;
+    margin: 25pt 0;
+}
+.givepanel-panel-left{
+    background: #D6E7F0;
+    border-radius: 10px;
+    width: 50pt;
+    height: 50pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.givepanel-panel-left:active{
+    opacity: 0.4;
+}
+.givepanel-panel-left-text{
+    background-color: white;
+    width: 30pt;
+    height: 6pt;
+}
+.givepanel-panel-center{
+    width: 200pt;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.givepanel-panel-center-text{
+    font-family: PingFangSC-Medium;
+    font-size: 21px;
+    color: #61737E;
+    text-align: center;
+}
+.givepanel-panel-right{
+    background: #D6E7F0;
+    border-radius: 10px;
+    width: 50pt;
+    height: 50pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.givepanel-panel-right:active{
+    opacity: 0.4;
+}
+.givepanel-panel-right-text1{
+    background-color: white;
+    width: 30pt;
+    height: 6pt;
+}
+.givepanel-panel-right-text2{
+    background-color: white;
+    width: 30pt;
+    height: 6pt;
+    transform:  translateY(-6pt) rotate(90deg);
+}
+.givepanel-botton{
+    background: #83B3CE;
+    border: 1.5pt solid #90A1AB;
+    border-radius: 42pt;
+    width: 200pt;
+    height: 45pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19pt;
+}
+.givepanel-botton:active{
+    opacity: 0.4;
+}
+.givepanel-botton-text{
+    font-family: PingFangSC-Medium;
+    font-size: 17pt;
+    color: #FFFFFF;
+    text-align: center;
+}

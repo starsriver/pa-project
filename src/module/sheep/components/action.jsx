@@ -5,7 +5,7 @@ export default class Action extends Component {
     render(){
         return (<div className='action-wrapper'>
             <h3 className='action-title'>最新动态</h3>
-            <div className='list'>
+            <div className='action-list'>
                 {data.map(item => {
                     return (
                         <div className='action-item'>

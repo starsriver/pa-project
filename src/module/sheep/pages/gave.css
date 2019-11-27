@@ -1,7 +1,15 @@
 .givepanel-wrapper{
-
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .givepanel-root{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
     background: #F7F7F7;
     border-radius: 7px;
     border-radius: 7px;
@@ -40,7 +48,8 @@
 .givepanel-panel{
     display: flex;
     flex-direction: row;
-    margin: 25pt 0;
+    width: 90vw;
+    margin: 25pt 5vw;
 }
 .givepanel-panel-left{
     background: #D6E7F0;
@@ -60,7 +69,8 @@
     height: 6pt;
 }
 .givepanel-panel-center{
-    width: 200pt;
+    display: flex;
+    flex: 1;
     background: white;
     display: flex;
     justify-content: center;

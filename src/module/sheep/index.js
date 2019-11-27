@@ -1,11 +1,15 @@
 import React from 'react'
 import Route from './router/index'
+import { Link } from 'react-router-dom'
 
 // export { Route }
 
 const omodule = () => {
     return (
-        <Route />
+        <div>
+
+            <Route />
+        </div>
     )
 }
 

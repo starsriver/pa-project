@@ -1,0 +1,12 @@
+.nav-link{
+    font-size: 20pt;
+    padding: 8pt;
+}
+
+.nav-link-wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

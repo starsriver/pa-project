@@ -3,9 +3,11 @@ import './gave.css'
 
 export default class Gave extends Component {
     render(){
+        const { select, data} = this.props
+
         return (<div className='give-wrapper'>
             <div className='give-list'>
-                {this.props.data.map((item, index) => {
+                {data.map((item, index) => {
                     return (
                         <div className='give-item'>
                             <div className='give-item-left'>
@@ -22,7 +24,9 @@ export default class Gave extends Component {
                             <div className='give-item-right'>
                             { item.gaved !== undefined && <span className='give-item-right-gaved'>{`已赠送${item.gaved}只`}</span>}
                             <div className='give-item-right-box'>{ item.canGave 
-                                ? <span className='give-item-right-text'>赠送</span>
+                                ? <span className='give-item-right-text' onClick={() => {
+                                    select(index)
+                                }}>赠送</span>
                                 : <span className='give-item-right-text'>去邀请</span>
                             }</div>
                             </div>

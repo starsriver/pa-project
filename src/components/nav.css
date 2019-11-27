@@ -1,0 +1,37 @@
+.nav-wrapper{
+    width: 100vw;
+    height: 44pt;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-back{
+    width: 44pt;
+    height: 44pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-back:active{
+    opacity: 0.4;
+}
+.nav-back-text{
+    font-size: 24pt;
+    text-align: center;
+}
+.nav-title{
+    display: flex;
+    flex: 1;
+    height: 44pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 44pt;
+}
+
+.nav-title-text{
+    font-family: PingFangSC-Medium;
+    font-size: 18pt;
+    color: rgba(0,0,0,0.85);
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  pa-project:
+    image: nginx:latest 
+    ports:
+     - "9000:80"
+    volumes:
+     - ./build:/usr/share/nginx/html
+    command: /bin/bash -c "nginx -g 'daemon off;'"

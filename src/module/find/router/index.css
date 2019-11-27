@@ -1,0 +1,33 @@
+.nav-link{
+    font-size: 20pt;
+    padding: 8pt;
+    background: #689DFF;
+    padding: 10pt 20pt;
+    border-radius: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10pt 0;
+}
+.nav-link-no{
+    font-size: 20pt;
+    padding: 8pt;
+    background: rgba(136, 138, 143, 0.637);
+    padding: 10pt 20pt;
+    border-radius: 20pt;
+    margin: 10pt 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.nav-link-wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
